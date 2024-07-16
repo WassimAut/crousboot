@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import telegram
-from telegram.ext import Updater, MessageHandler, filters
 import time
 import asyncio
 bot_token = "7422796600:AAHdigq8Xh983fDOCpQgv_zRSqQvaDsNX7M"
