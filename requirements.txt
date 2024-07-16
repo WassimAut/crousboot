@@ -1,0 +1,6 @@
+requests
+BeautifulSoup
+telegram
+time
+asyncio
+python-telegram-bot
