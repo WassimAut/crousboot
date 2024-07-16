@@ -4,3 +4,4 @@ telegram
 time
 asyncio
 python-telegram-bot
+lxml
