@@ -26,8 +26,8 @@ async def send_message(info):
    
 
 
-
-while True:
+if __name__ == "__main__":
+    while True:
     bot = telegram.Bot(token=bot_token)
     page = requests.get(lille)
     soup = BeautifulSoup(page.content,"lxml")
@@ -37,6 +37,7 @@ while True:
         asyncio.run(send_message(f"There are {availablecrous} now"))
     print("a message should be sent")
     time.sleep(10)
+
    
 
 
